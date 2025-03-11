@@ -1,0 +1,13 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_event_mex_flag_1"
+		texturefile = "gfx/event_pictures/event_mex_flag_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_coast"
+		texturefile = "gfx/event_pictures/coast.dds"
+	}
+	
+}

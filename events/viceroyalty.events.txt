@@ -1,0 +1,150 @@
+﻿#######################
+# Nueva España events
+#######################
+
+
+add_namespace = nf_tvr
+
+
+country_event = {  # Beginning
+	id = nf_tvr.1
+	title = "The Bombs fell on Broken Land.." 
+	desc = nf_tvr.1.d
+	picture = GFX_event_mex_flag_1
+
+	is_triggered_only = yes
+
+	option = { 
+		name = "resisting with what we had, and what we sacrificed." # Resistance
+		ai_chance = {
+			factor = 50
+		}
+		add_stability = -0.05
+		add_war_support = 0.10
+		army_experience = 10
+		add_ideas = resistance_origins
+	}
+
+	option = { 
+		name = "playing their game, for a little while." # Played by their rules
+		ai_chance = {
+			factor = 50
+		}
+		add_stability = 0.05
+		add_war_support = -0.05
+		add_political_power = 35
+		add_ideas = obedience_origins
+	}
+
+}
+
+country_event = {   
+	id = nf_tvr.2
+	title = "A Gamble that paid off" # left aztlán to go here
+	desc = nf_tvr.2.d
+	picture = GFX_coast
+
+	is_triggered_only = yes
+
+	option = {
+		name = "investing in our defensive industry" # giving mils and guns to player
+		ai_chance = {
+			factor = 50
+		}
+		add_war_support = 0.05
+		add_equipment_to_stockpile = {
+			amount = 750
+			type = infantry_equipment					
+		}
+		780 = {
+			if = {
+				limit = {
+					is_valid_state_for_2_arms_factories = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes					
+				}
+			}
+		}
+
+		766 = {
+			if = {
+				limit = {
+					is_valid_state_for_2_arms_factories = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes					
+				}
+			}
+		}
+		add_ideas = defensive_industry	
+	}
+
+	option = {
+		name = "focusing on our trading sector" # giving civs to player
+		ai_chance = {
+			factor = 50
+		}
+		add_stability = 0.05
+
+		780 = {
+			if = {
+				limit = {
+					is_valid_state_for_2_civilian_factories = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}			
+		    }
+	    }
+	    766 = {
+			if = {
+				limit = {
+					is_valid_state_for_2_civilian_factories = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		781 = {
+			if = {
+				limit = {
+					is_valid_state_for_1_dockyards = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		add_ideas = trading_sector	
+	}
+}
+	
+country_event = {
+	id = nf_tvr.3
+	title = "The only easy day was yesterday"
+	desc = nf_tvr.3.d
+
+				
+			
+		
+    
+
+	
+			

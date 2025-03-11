@@ -1,0 +1,18 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_goal_flag_mexico"
+		texturefile = "gfx/interface/goals/goal_flag_mexico.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goal_generic_ideological_fury_focus"
+		texturefile = "gfx/interface/goals/goal_generic_ideological_fury_focus.dds"
+
+	}
+
+	spriteType = {
+		name = "GFX_goal_religion_flag"
+		texturefile = "gfx/interface/goals/goal_religion_flag"
+	}
+}

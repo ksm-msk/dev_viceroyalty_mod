@@ -1,0 +1,26 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_mexican_resistance"
+		texturefile = "gfx/interface/ideas/mxc_resistance_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_mexican_obedience"
+		texturefile = "gfx/interface/ideas/mxc_obedience_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_pre_war_industry"
+		texturefile = "gfx/interface/ideas/pre_war_industry_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_tvr_trading_sector"
+		texturefile = "gfx/interface/ideas/tvr_trading_sector_icon.dds"
+	}
+
+	
+
+
+}

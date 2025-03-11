@@ -1,0 +1,225 @@
+# Nueva España focus by KsM  #
+# Submod for Old World Blues #
+##############################
+
+focus_tree = {
+	id = viceroyalty_nf
+	country = {
+		factor = 0
+		modifier = {
+			add = 30
+			tag = TVR
+		}
+	}
+	default = no
+
+        focus = {  # Backstory 1 focus
+                id = tvr_pre_war_mxc 
+                icon = GFX_goal_flag_mexico
+                cost = 7
+                x = 25
+                y = 0
+                completion_reward = {
+                        add_political_power = 25
+                        country_event = nf_tvr.1
+                }        
+        }
+
+        focus = {
+                id = tvr_independence # Backstory 2 focus
+                icon = GFX_goal_generic_ideological_fury_focus
+                cost = 7
+                x = 0
+                y = 1                               
+                prerequisite = {
+                        focus = tvr_pre_war_mxc
+                }
+                relative_position_id = tvr_pre_war_mxc
+                completion_reward = {
+                        country_event = nf_tvr.2
+
+                }
+        }
+        
+        focus = {
+                id = tvr_present_day # Backstory 3 focus
+                icon = GFX_goal_religion_flag
+                cost = 7
+                x = 0
+                y = 2
+                prerequisite = {
+                        focus = tvr_independence
+                }
+                relative_position_id = tvr_independence
+                completion_reward = {
+                
+        
+
+                
+
+
+
+
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
